@@ -84,22 +84,33 @@
 
 #currentjob {
   height: 300px;
-  background-color: blanchedalmond;
+  background-color: #fdfcdc;
+  opacity: 50%;
+}
+#currentjob h2 {
+  text-decoration: underline;
+}
+#currentjob p {
+  color: brown;
+  text-align: justify;
+  text-justify: inter-word;
+  padding: 1%;
 }
 
 #workexp {
   height: 300px;
-  background-color: coral;
+  background-color: #fed9b7;
+  opacity: 100%;
 }
 
 #education {
   height: 300px;
-  background-color: khaki;
+  background-color: #f07167;
 }
 
 #projects {
   height: 300px;
-  background-color: goldenrod;
+  background-color: #fdfcdc;
 }
 
 #projects a {
