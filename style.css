@@ -26,7 +26,6 @@
 
 .topnav {
   overflow: hidden;
-  /* position: sticky; */
   top: 2%;
   background-color: rgb(107, 170, 243);
   border-radius: 10px;
@@ -109,16 +108,14 @@
   font-weight: bold;
 }
 
-#content-bg {
+#proj-content {
   background-image: url(background.jpg);
   background-size: cover;
   border-radius: 12px;
-  padding: 2%;
-  /* height: 80%; */
 }
 
 #pgrad {
-  height: 400px;
+  height: 60%;
   width: 50%;
   padding: 1px;
   margin-top: auto;
@@ -127,30 +124,16 @@
   display: block;
   margin-right: auto;
   color: rgb(243, 238, 230);
-  /* position: absolute;
-  left: 0; */
 }
+
 #pgrad-desc p {
   color: black;
   font-weight: bolder;
   opacity: 60%;
-  /* height: 250px;
-  width: 40%;
-  padding-top: 1px;
-  text-align: center;
-  background-color: blanchedalmond;
-  border-radius: 50px;
-  opacity: 50%;
-  float: right;
-  display: block;
-  /* position: absolute;
-  right: 0;
-  display: block;
-  float: right; */
 }
 
 #ugrad {
-  height: 400px;
+  height: 60%;
   width: 50%;
   padding: 1px;
   margin-top: auto;
@@ -159,9 +142,6 @@
   display: block;
   margin-left: auto;
   color: rgb(243, 238, 230);
-  /* margin-right: auto; */
-  /* position: bottom; */
-  /* margin-inline: auto; */
 }
 
 #ugrad-desc p {
@@ -170,8 +150,35 @@
   opacity: 60%;
 }
 
+.proj-cointainer {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: auto;
+  bottom: 0;
+  right: 0;
+  width: 80%;
+  height: 70%;
+}
+
+.responsive-iframe2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: auto;
+  width: 80%;
+  height: 70%;
+}
+
 #ftr {
-  /* padding-top: 2px; */
   height: 60px;
   background-color: rgb(107, 170, 243);
   border-top: solid black;
